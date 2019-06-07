@@ -36,13 +36,13 @@
 定位精度が悪化した実験に共通するのは，いずれも頭部回転の最中に音像定位させたことである．
 
 以上に述べたような改善・悪化の二種類の現象が起きる理由は未だに明らかになっていない．
-頭を動かしながら音を聞くというありふれた場面での聴覚の性質を解明することは，より高い臨場感を提示する音再生技術の発展において大きな役割を果たすと筆者は考えている．
+頭を動かしながら音を聞くというありふれた場面での聴覚の性質を解明することは，より高い臨場感を提示する音再生技術の発展に不可欠だと筆者は考える．
 
 \section{研究目的}
 研究目的は，頭部回転の最中に音像定位精度が悪化する原因を明らかにすることである．
 受動全身回転中は主観的正面の弁別限が増加することが知られている．
 %これまでに，回転速度・刺激音の長さ・暗闇時間の長さ・音提示前の回転などの影響が調査されたが，いずれも定位精度悪化の原因解明には至っていない．
-過去に定位精度の悪化が確認された実験ではいずれも頭部回転の最中に定位・回答を課されていたことと，最近の実験で回転速度や試験音の長さ・音提示前の回転はから，回転感覚と，相対的な音方向の変化（ITD・IIDの時間変化）を定位精度悪化の要因の候補に挙げる．
+過去に定位精度の悪化が確認された実験ではいずれも頭部回転の最中に定位・回答を課されていたことと，最近の実験で回転速度や試験音の長さ・音提示前の回転は定位精度に影響しないことが示されたことから，精度悪化の原因の候補として回転感覚と相対的な音方向の変化（ITD・IIDの時間変化）が挙げられる．
 そこで，本研究では，回転感覚とITD・IIDの時間変化のそれぞれが音像定位に与える影響を調査する．
 
 \section{ベクション生起中の音像定位実験}
@@ -65,18 +65,99 @@
 提示スピーカは，ランダム化最尤適応法によって決定した．
 試験音が主観的正面に対し左右どちらから聞こえたかを，二肢強制選択で回答させた．
 試行回数は計100回で，2セッション各50回に分けて実施した．
+被験者は筆者を含む三名であった．
 
 \subsection{ベクション条件}
 この条件では，固視点を提示したのち，同一球面上の複数の球が左右どちらかすべて同じ方向に定速移動する映像を提示した．
 球の映像に切り替わったのち，被験者がまるでその場で回転しているように感じたら手元のボタンを押すように指示した．
-ボタン応答を感知したら，ひとつのラウドスピーカから静止条件で用いたものと同じ試験音を提示した．
+ボタン応答を感知したら，ひとつのラウドスピーカから静止条件で用いたものと同じ試験音を提示し，左右どちらから聞こえたかを二肢強制選択で回答させた．
+また，球の映像に切り替わった時刻とボタン応答の時刻を記録し差を求めることで，ベクション生起にかかった時間を測定した．
+試行回数は計200回（球移動方向各100回）で，4セッション各50回に分けて実施した．
+被験者は静止条件を受けた者と同じ三名であった．
+
+\subsection{結果}
+各提示位置において右から聞こえたと回答した比率に累積正規分布曲線を当てはめることで心理測定関数を推定した．
+平均値をPSE，標準偏差の0.6745倍の値をjndと定めた．
+本実験においては，PSEは主観的正面，jndは定位精度の悪さを表す指標とみなすことができる．
+静止条件における三名分の心理測定関数を示す．\\
+\begin{figure}[htbp]
+    \centering
+    \begin{tabular}{ccc}
+        \begin{minipage}{0.33\columnwidth}
+            \centering
+            Subject1
+        \end{minipage}
+        \begin{minipage}{0.33\columnwidth}
+            \centering
+            Subject2
+        \end{minipage}
+        \begin{minipage}{0.33\columnwidth}
+            \centering
+            Subject3
+        \end{minipage}
+    \end{tabular}
+    \caption{心理測定関数（静止条件）}
+    \label{pf_s}
+\end{figure}
+
+\raggedright
+次に，ベクション条件の三名分の心理測定関数を示す．\\
+\begin{figure}[htbp]
+    \centering
+    \begin{tabular}{ccc}
+        \begin{minipage}{0.33\columnwidth}
+            \centering
+            Subject1(L)
+        \end{minipage}
+        \begin{minipage}{0.33\columnwidth}
+            \centering
+            Subject2(L)
+        \end{minipage}
+        \begin{minipage}{0.33\columnwidth}
+            \centering
+            Subject3(L)
+        \end{minipage}\\
+        \begin{minipage}{0.33\columnwidth}
+            \centering
+            Subject1(R)
+        \end{minipage}
+        \begin{minipage}{0.33\columnwidth}
+            \centering
+            Subject2(R)
+        \end{minipage}
+        \begin{minipage}{0.33\columnwidth}
+            \centering
+            Subject3(R)
+        \end{minipage}
+    \end{tabular}
+    \caption{心理測定関数（静止条件）}
+    \label{pf_v}
+\end{figure}
+
+\raggedright
+以上の推定で得たPSEとjndを下に示す．\\
+% Excel で表を作成しpngを挿入
+\begin{figure}[htbp]
+    \centering
+    % \includegraphics[]{}
+    \caption{推定したPSEとjnd}
+    \label{table}
+\end{figure}
+
+\raggedright
+
+
+\raggedright
+\section{今後の方針}
+今後は実験条件を少し調整して，20名程度の被験者に実験を行う予定である．
+
 
 \begin{thebibliography}{1}
     % \bibitem{ITDs} Brian C. J. Moore, ``Psychology of Hearing (Sixth Edition),'' 248-249, 2013.
     \bibitem{Kawaura} J. Kawaura {\it et al.}, ``Sound localization in headphone reproduction by simulating transfer functions from the sound source to the external ear,'' {\it Acoust. Soc. Jpn.(E)}, 1989.
     \bibitem{Iwaya} Y. Iwaya {\it et al.}, ``Effect of Listener's Head Movement on the Accuracy of Sound Localization in Virtual Environment,'' {\it Acoust. Sci. \& Tech.}, 24, 322-324, 2004.
     \bibitem{Brimijoin} W. O. Brimijoin {\it et al.}, ``The contribution of head movement to the externalization and internalization of sounds,'' {\it PLoS ONE}, 8, 2015.
-    \bibitem{Cooper} J. Cooper {\it et al.}, ``Distortions of sound image movement during horizontal head rotation,'' {\it Exp. Brain Res.}, 191, 209-219, 2008.
+    \bibitem{Cooper} J. Cooper {\it et al.}, ``Distortions of sound image movement during horizontal head rotation,'' {\it Exp. Brain R]es.}, 191, 209-219, 2008.
     \bibitem{Honda} A. Honda {\it et al.}, ``Detection of sound image movement during horizontal head rotation,'' {\it i-perception}, 7, 2041669516669614, 2016.
     \bibitem{Masumi} Y. Masumi {\it et al.}, ``Listener's subjective front in horizontal sound localization: Effects of head movements and face directions,'' {\it 2014 RISP International Workshop on Nonlinear Circuits, Communication and Signal Processing}, 2014.
     \bibitem{Tsuno} 角掛沙也香ら，``聴取者受動回転時における音像定位精度の回転速度依存性の検討,'' 音講論，2016.
