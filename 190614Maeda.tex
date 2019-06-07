@@ -54,9 +54,17 @@
 ラウドスピーカは被験者の物理的正面に対して左右9$^\circ$の範囲に，2$^\circ$間隔で10個配置した．
 実験条件は，静止条件と，ベクション条件の二種類とした．
 被験者は3名で，このうち2名（被験者1, 2）は静止条件から，残りの1名はベクション条件から先に実験を行った．
+本実験系を以下に示す．
+\begin{figure}[htbp]
+    \centering
+    \includegraphics[width=0.8\columnwidth]{./figure/system.png}
+    \caption{実験系}
+    \label{system}
+\end{figure}
 
+\raggedright
 \subsection{静止条件}
-この条件では，ヘッドマウントディスプレイを用いて，固視点を提示したのち，同一球面上で静止する複数の球の映像を提示した．
+\ この条件では，ヘッドマウントディスプレイを用いて，固視点を提示したのち，同一球面上で静止する複数の球の映像を提示した．
 背景は暗闇で，固視点として赤い十字を被験者の物理的正面（ラウドスピーカアレイの中心と一致）に配置した．
 固視点を30 s間見せたのち，被験者を中心とした半径5 mの球上に直径20 cmの球が10000個ランダムに配置された映像を提示した．
 このとき，球はすべて静止させた．
@@ -68,7 +76,7 @@
 被験者は筆者を含む三名であった．
 
 \subsection{ベクション条件}
-この条件では，固視点を提示したのち，同一球面上の複数の球が左右どちらかすべて同じ方向に定速移動する映像を提示した．
+\ この条件では，固視点を提示したのち，同一球面上の複数の球が左右どちらかすべて同じ方向に定速移動する映像を提示した．
 球の映像に切り替わったのち，被験者がまるでその場で回転しているように感じたら手元のボタンを押すように指示した．
 ボタン応答を感知したら，ひとつのラウドスピーカから静止条件で用いたものと同じ試験音を提示し，左右どちらから聞こえたかを二肢強制選択で回答させた．
 また，球の映像に切り替わった時刻とボタン応答の時刻を記録し差を求めることで，ベクション生起にかかった時間を測定した．
@@ -76,24 +84,27 @@
 被験者は静止条件を受けた者と同じ三名であった．
 
 \subsection{結果}
-各提示位置において右から聞こえたと回答した比率に累積正規分布曲線を当てはめることで心理測定関数を推定した．
+\ 各提示位置において右から聞こえたと回答した比率に累積正規分布曲線を当てはめることで，心理測定関数を推定した．
 平均値をPSE，標準偏差の0.6745倍の値をjndと定めた．
 本実験においては，PSEは主観的正面，jndは定位精度の悪さを表す指標とみなすことができる．
-静止条件における三名分の心理測定関数を示す．\\
+静止条件における三名分の心理測定関数を示す．
 \begin{figure}[htbp]
     \centering
     \begin{tabular}{ccc}
         \begin{minipage}{0.33\columnwidth}
             \centering
-            Subject1
+            \includegraphics[width=\columnwidth]{./figure/NoMove_maeda.png}
+            Subject 1
         \end{minipage}
         \begin{minipage}{0.33\columnwidth}
             \centering
-            Subject2
+            \includegraphics[width=\columnwidth]{./figure/NoMove_niitsuma.png}
+            Subject 2
         \end{minipage}
         \begin{minipage}{0.33\columnwidth}
             \centering
-            Subject3
+            \includegraphics[width=\columnwidth]{./figure/NoMove_oikawa.png}
+            Subject 3
         \end{minipage}
     \end{tabular}
     \caption{心理測定関数（静止条件）}
@@ -101,33 +112,40 @@
 \end{figure}
 
 \raggedright
-次に，ベクション条件の三名分の心理測定関数を示す．\\
+次に，ベクション条件の心理測定関数を示す．
 \begin{figure}[htbp]
     \centering
     \begin{tabular}{ccc}
         \begin{minipage}{0.33\columnwidth}
             \centering
-            Subject1(L)
+            \includegraphics[width=\columnwidth]{./figure/L_maeda.png}
+            Subject 1 (L)
         \end{minipage}
         \begin{minipage}{0.33\columnwidth}
             \centering
-            Subject2(L)
+            \includegraphics[width=\columnwidth]{./figure/L_niitsuma.png}
+            Subject 2 (L)
         \end{minipage}
         \begin{minipage}{0.33\columnwidth}
             \centering
-            Subject3(L)
+            \includegraphics[width=\columnwidth]{./figure/L_oikawa.png}
+            Subject 3 (L)
         \end{minipage}\\
+        \vspace{0.5cm}
         \begin{minipage}{0.33\columnwidth}
             \centering
-            Subject1(R)
+            \includegraphics[width=\columnwidth]{./figure/R_maeda.png}
+            Subject 1 (R)
         \end{minipage}
         \begin{minipage}{0.33\columnwidth}
             \centering
-            Subject2(R)
+            \includegraphics[width=\columnwidth]{./figure/R_niitsuma.png}
+            Subject 2 (R)
         \end{minipage}
         \begin{minipage}{0.33\columnwidth}
             \centering
-            Subject3(R)
+            \includegraphics[width=\columnwidth]{./figure/R_oikawa.png}
+            Subject 3 (R)
         \end{minipage}
     \end{tabular}
     \caption{心理測定関数（静止条件）}
@@ -135,29 +153,56 @@
 \end{figure}
 
 \raggedright
-以上の推定で得たPSEとjndを下に示す．\\
+以上の推定で得たPSEとjndを表\ref{table}にまとめる．
 % Excel で表を作成しpngを挿入
-\begin{figure}[htbp]
+\begin{table}[htbp]
     \centering
-    % \includegraphics[]{}
     \caption{推定したPSEとjnd}
+        \begin{tabular}{|c|c||r|r|r|}\hline
+            \multicolumn{2}{|c||}{} & static & \multicolumn{2}{c|}{vection}\\
+            \cline{4-5}
+            \multicolumn{2}{|c||}{} &  & \multicolumn{1}{c|}{L} & \multicolumn{1}{c|}{R}\\ \hline \hline
+             & subject 1 & -2.22 & -3.76 & -4.03 \\ \cline{2-5}
+            PSE [$^\circ$] & subject 2 & -3.74 & -5.33 & -8.01\\ \cline{2-5}
+             & subject 3 & -3.47 & -3.45 & -2.88 \\ \hline
+             & subject 1 & 0.78 & 0.85 & 0.55 \\ \cline{2-5}
+            jnd [$^\circ$] & subject 2 & 1.07 & 2.52 & 1.96 \\ \cline{2-5}
+             & subject 3 & 1.04 & 0.79 & 1.04 \\ \hline
+        \end{tabular}
     \label{table}
+\end{table}
+
+\raggedright
+PSEの値がすべて負になっているのは，最初に提示する固視点がアレイ中心からずれていたことが原因として考えられ，修正する必要がある．
+次にjndについて，subject 1とsubject 3は静止条件とベクション条件でそれほど変わらなかったのに対し，subject 2はベクション条件で倍近く増加している．
+現時点では被験者が非常に少ないため統計検定を行っていないが，今後被験者を増やして静止条件とベクション条件の間に定位精度の差があるかどうかを調査する予定である．
+
+\ 続いて，ベクション生起にかかった時間を図\ref{vt}に示す．
+\begin{figure}
+    \begin{tabular}{cc}
+        \begin{minipage}{0.5 \columnwidth}
+            \includegraphics[width=\columnwidth]{./figure/allVT_L.png}
+        \end{minipage}
+        \begin{minipage}{0.5 \columnwidth}
+            \includegraphics[width=\columnwidth]{./figure/allVT_R.png}
+        \end{minipage}
+    \end{tabular}
+    \caption{ベクション生起にかかった時間}
+    \label{vt}
 \end{figure}
+この図によると，ベクション生起にかかる時間に時間差はあるが，およそ10$\sim$100秒に収まっており，今後も実験時間が長くなりすぎることはないと予想している．
 
-\raggedright
-
-
-\raggedright
 \section{今後の方針}
-今後は実験条件を少し調整して，20名程度の被験者に実験を行う予定である．
-
+\ より正確なPSEの推定のために固視点のずれを修正する．
+また，球が移動する映像を見せたときに生じるベクションが回転運動ではなく真横移動である可能性もあるため，ベクション条件のボタン応答における教示を，「その場で回っているように感じたらボタンを押す」から，「その場で動いているように感じたら」とし，実験後にどのような運動を知覚していたか質問するように手順を変更する．
+今後，二十名程度の被験者を募集する予定である，
 
 \begin{thebibliography}{1}
     % \bibitem{ITDs} Brian C. J. Moore, ``Psychology of Hearing (Sixth Edition),'' 248-249, 2013.
     \bibitem{Kawaura} J. Kawaura {\it et al.}, ``Sound localization in headphone reproduction by simulating transfer functions from the sound source to the external ear,'' {\it Acoust. Soc. Jpn.(E)}, 1989.
     \bibitem{Iwaya} Y. Iwaya {\it et al.}, ``Effect of Listener's Head Movement on the Accuracy of Sound Localization in Virtual Environment,'' {\it Acoust. Sci. \& Tech.}, 24, 322-324, 2004.
     \bibitem{Brimijoin} W. O. Brimijoin {\it et al.}, ``The contribution of head movement to the externalization and internalization of sounds,'' {\it PLoS ONE}, 8, 2015.
-    \bibitem{Cooper} J. Cooper {\it et al.}, ``Distortions of sound image movement during horizontal head rotation,'' {\it Exp. Brain R]es.}, 191, 209-219, 2008.
+    \bibitem{Cooper} J. Cooper {\it et al.}, ``Distortions of sound image movement during horizontal head rotation,'' {\it Exp. Brain Res}., 191, 209-219, 2008.
     \bibitem{Honda} A. Honda {\it et al.}, ``Detection of sound image movement during horizontal head rotation,'' {\it i-perception}, 7, 2041669516669614, 2016.
     \bibitem{Masumi} Y. Masumi {\it et al.}, ``Listener's subjective front in horizontal sound localization: Effects of head movements and face directions,'' {\it 2014 RISP International Workshop on Nonlinear Circuits, Communication and Signal Processing}, 2014.
     \bibitem{Tsuno} 角掛沙也香ら，``聴取者受動回転時における音像定位精度の回転速度依存性の検討,'' 音講論，2016.
